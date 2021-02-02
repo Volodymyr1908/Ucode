@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav -------------------------------> */
+
+nav {
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .5s;
+    border-radius: 20px 0;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+}
+
+nav ul ul {
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0px;
+    display: none;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(135,163,198,1) 100%);
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+nav ul .dropdown {
+    position: relative;
+}
+
+nav ul .dropdown:hover > ul {
+    display: initial;
+}
+
+
+
+nav ul .dropdown_two ul {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+      
+}
+
+nav ul .dropdown_two:hover ul {
+    display: initial;
+    
+}
+
+
+
+

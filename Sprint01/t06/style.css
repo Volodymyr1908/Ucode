@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    background-color: red;
+}
+
+span {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    vertical-align: bottom;
+    height: 28px;
+   
+}

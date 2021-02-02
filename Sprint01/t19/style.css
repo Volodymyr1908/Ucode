@@ -1,0 +1,135 @@
+/* form {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* h style -----------------------> */
+
+.h2_pink {
+    color: rgb(199, 101, 118);
+}
+
+.h2_grey {
+    color: gray;
+    text-align: center;
+}
+
+/* checkbox style ----------------------> */
+
+.checkbox_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid grey;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input[type="checkbox"]:checked + div {
+    background-color: rgb(7, 6, 88);
+    color: white;
+
+
+}
+
+input[type="checkbox"]:checked + div::after {
+    content: '\2713';
+    padding-left: 10px;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.row_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.row_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 20px;
+
+}
+.row_three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* footer ---------------------> */
+
+.footer_input {
+    position: relative;
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    
+}
+
+.job_details {
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 60px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.name {
+    width: 40%;
+    border: none;
+    position: relative;
+    border-bottom: 1px solid grey;
+    outline: none;
+    
+}
+
+
+.Email {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+/* button ----------------------> */
+button {
+    display: block;
+    position: relative;
+    margin: 53px auto;
+    width: 70%;
+    height: 40px;
+    background-color: rgb(212, 200, 200);
+    
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(245, 105, 151);
+    transition: 1.1s;
+    
+}

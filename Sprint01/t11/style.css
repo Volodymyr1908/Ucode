@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    float: left;
+}
+
+.date {
+    background-color: rgb(10, 157, 202);
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.block {
+    margin-left: 5px;
+}
+
+.block:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.temperature {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2em;
+}

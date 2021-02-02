@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Superhero Form</h1>
+    <fieldset>
+    <form action="Superhero">
+        <fieldset>
+            <!-- <div class="form_header"> -->
+                <legend>About the Superhero</legend> <br>
+                <label for="Real_name">Real Name
+                    <input required type="text" name="real_name" placeholder="Superhero real name">
+                </label>
+                <label for="Superhero_name">Superhero Name
+                    <input type="text" name="superhero_name" placeholder="Superhero alias">
+                </label>
+                <label for="Age">Age
+                    <input type="number" name="age" >
+                </label><br>
+                <!-- <div class="about_text"> -->
+                    <!-- <label for="About">About
+                        <input type="text" name="about" placeholder="Information about the superhero, max 500 symbols">
+                    </label> -->
+                
+                <label for="About">About
+                    <textarea name="About" id="" cols="60" rows="5" placeholder="Information about the superhero, max 500 symbols"></textarea>
+                </label>
+                <!-- </div> -->
+                <div class="photo">
+                    <label for="Photo">Photo:
+                        <input type="file" name="photo">
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+
+            <!-- <div class="form_body"> -->
+                <legend>Powers</legend> <br>
+                <input type="checkbox" name="option_One">Telekinesis
+                <input type="checkbox" name="option_Two">Super strength or speed
+                <input type="checkbox" name="option_Three">Shapeshifting
+                <input type="checkbox" name="option_Four">Flight
+                <input type="checkbox" name="option_Five">Elemental control
+                <input type="checkbox" name="option_Six">Other
+                <br>
+                    <label for="Level">Level of control
+                        <input type="range" name="level_of_control">
+                    </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <!-- <div class="form_footer"> -->
+                <legend>Origin of Powers</legend> <br>
+                <input type="radio" name="option_One">Uknown
+                <input type="radio" name="option_Two">Freak lab accident
+                <input type="radio" name="option_Three">Chosen by an ancient wise being
+                <input type="radio" name="option_Four">The superhero is not human
+                <input type="radio" name="option_Five">Other
+            </div>
+        </fieldset>
+
+        <div class="finish">
+            <input type="reset" name="clear">
+            <input type="submit" name="send">
+        </div>
+    </form>
+    </fieldset>
+            
+</body>
+</html>

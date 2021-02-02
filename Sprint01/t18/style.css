@@ -1,0 +1,23 @@
+    form {
+        width: 100%;
+        display: flex;
+    }
+    input {
+        width: 92%;
+        color: green
+    }
+    
+    input:hover {
+        color: red;
+    }
+    
+    button {
+        padding: 2px 2px;
+        color: green;
+        width: 7%;
+        height: 1.9em;
+    }
+    
+    button:hover {
+        color: red
+    }
